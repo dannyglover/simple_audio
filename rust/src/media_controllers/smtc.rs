@@ -227,6 +227,7 @@ impl MediaController for Smtc
         let status: MediaPlaybackStatus = match state {
             PlaybackState::Play => MediaPlaybackStatus::Playing,
             PlaybackState::Pause => MediaPlaybackStatus::Paused,
+            PlaybackState::PreloadPlayed => MediaPlaybackStatus::Playing,
             _ => MediaPlaybackStatus::Paused,
         };
 
