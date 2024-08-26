@@ -1,5 +1,8 @@
 # Simple Audio
 
+Note: This is a fork of SimpleAudio that I use in my personal projects. You may also use it if you wish, 
+but i'd recommend using Erikas Taroza's original work [here](https://pub.dev/packages/simple_audio): 
+
 A cross-platform solution for playing audio in Flutter.
 
 This project's goal is to be as simple as possible, meaning it offers the core functionality only (ex. play/pause).

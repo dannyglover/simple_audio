@@ -7,7 +7,7 @@ edition = "2021"
 crate-type = ["staticlib", "cdylib"]
 
 [dependencies]
-cpal = "0.15.2"
+cpal = { git = "https://github.com/sidit77/cpal.git", branch = "master" }
 flutter_rust_bridge = "=1.82.1"
 reqwest = { version = "0", features = [
 	"blocking",
