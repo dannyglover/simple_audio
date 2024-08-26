@@ -18,7 +18,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  simple_audio:
+  simple_audio_fork:
     # When depending on this package from a real application you should use:
     #   simple_audio: ^x.y.z
     # See https://dart.dev/tools/pub/dependencies#version-constraints
